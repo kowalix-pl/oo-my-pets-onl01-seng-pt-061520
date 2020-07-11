@@ -39,7 +39,7 @@ class Owner
   
   
   def buy_cat(name)
-    cats << Cats.new(name,owner)
+    cats << Cat.new(name,owner)
   binding.pry
   end
   

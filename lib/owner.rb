@@ -42,9 +42,9 @@ class Owner
     cats << Cat.new(name,self)
   end
   
-  # def buy_dog(
-  #   Dog.all.select {|cat| cat.owner = self}
-  # end 
+  def buy_dog(
+    dogs << Dog.new(name,self)
+  end 
  
   
   def walk_dogs

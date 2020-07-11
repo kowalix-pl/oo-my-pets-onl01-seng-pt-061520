@@ -63,13 +63,8 @@ class Owner
   end
   
   
-  # def list_pets
-  # Cat.all.count {|cat| cat.owner == self}
-  #   binding.pry
-  # #   Dog.all.each {|dog| dog.owner == self}
-  # #   binding.pry
-  # #   # Cat.all.each {|cat| if cat.owner = self}
-  # # # "I have #{Dog.all..count} dog(s), and #{Cat.all.self.count} cat(s)."
-  # end
+  def list_pets
+
+  "I have #{self.dog.count} dog(s), and #{self.cats.count} cat(s)."
  
 end

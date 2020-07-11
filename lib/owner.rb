@@ -40,7 +40,6 @@ class Owner
   
   def buy_cat(name)
     cats << Cat.new(self,name)
-  binding.pry
   end
   
   # def buy_dog(
